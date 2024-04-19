@@ -5,7 +5,7 @@
   box-sizing: border-box;
   /* list-style: none; */
 
-  /* text-decoration: none; */
+  text-decoration: none;
   outline: none;
   border: none;
 }
@@ -547,6 +547,9 @@ footer {
   h5 {
     font-size: 18px;
   }
+  p {
+    font-size: 15px;
+  }
   .btn {
     padding: 10px 22px;
   }
@@ -558,11 +561,8 @@ footer {
     font-size: larger;
   }
   /* -----Start Header----------- */
-  .header-container {
-    height: 100vh;
-  }
   .header-container p {
-    font-size: px;
+    font-size: 15px;
   }
   .circle {
     height: 16rem;
@@ -589,7 +589,7 @@ footer {
   .hero-image {
     height: 12rem;
     width: 12rem;
-    top: 23.5%;
+    top: 26%;
   }
   /* ----------Start About Section---------- */
   .about-bottom {
@@ -611,8 +611,12 @@ footer {
 
   /* ----------End About Section---------- */
   .project-img {
-    height: 100%;
-    width: 70%;
+    height: 15rem;
+    width: 15rem;
+    top: 34%;
+  }
+  .container {
+    font-size: 13px;
   }
 }
 
