@@ -531,6 +531,9 @@ footer {
 /* ----------End Project ------------- */
 /*---------- Max-Width:600px-------- */
 @media (max-width: 600px) {
+  * {
+    text-decoration: none;
+  }
   h1 {
     font-size: 38px;
   }
@@ -589,7 +592,7 @@ footer {
   .hero-image {
     height: 12rem;
     width: 12rem;
-    top: 26%;
+    top: 24.5%;
   }
   /* ----------Start About Section---------- */
   .about-bottom {
